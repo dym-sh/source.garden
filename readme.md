@@ -1,6 +1,6 @@
 # source.garden
 
-> <DESCRIPTION>
+> display and interact with the source code in reasonable way
 
 
 <a href='preview.png'><img height=100 border=2 align='right' alt='preview' src='preview.png'></a>

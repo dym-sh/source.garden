@@ -1,0 +1,51 @@
+image
+- resize
+  - matrix transformation
+    - skew
+    - free form
+  - scale
+  - proportions
+    - wide (16:9)
+    - square (1:1)
+  - crop
+    - remove borders (leeway for jpeg artifacts)
+
+- convert
+  - png-8
+  - png-24
+  - jpeg
+  - webp
+
+- optimize
+  - lower color pallet
+  - remove exif and other meta-data
+
+- add text
+
+/ selection
+  - create
+  - make mask from it
+
+
+video
+- download
+- remove sound
+
+
+text
+- alternate case
+
+
+xml
+- get
+- parse
+- generate
+
+/ rss
+/ opml
+/ bookmarks
+
+
+email
+- send
+

@@ -1,0 +1,31 @@
+<pipeline-component 
+  name='blur'
+  input-type='image/any'
+  output-type='image/bitmap'
+  >
+  <setting
+    id='amount'
+    type='float'
+    >
+    <input
+      name='amount'
+      type='range'
+      onchange='calc_output'
+      >
+  </setting>
+
+  <canvas id='input'></canvas>
+  <canvas id='output'></canvas>
+
+  <script>
+    // input:
+    // render to canvas#input
+
+    // output:
+    // apply css.blur(amount)
+    // render to canvas#output
+
+  </script>
+
+</pipeline-component>
+
